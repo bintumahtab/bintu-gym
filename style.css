@@ -1,0 +1,124 @@
+/* Common styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* NAV styles */
+.nav-container {
+    background-color: #000000;
+    display: flex;
+    padding: 10px;
+}
+.left-sidebar {
+    width: 80%;
+}
+.logo {
+    display: flex;
+}
+.name {
+    color: #ca5662;
+    font-size: 22px;
+    letter-spacing: 2px;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+.menu-items ul {
+    display: flex;
+}
+.menu-items ul li {
+    list-style: none;
+}
+.menu-items ul li a {
+    margin-left: 35px;
+    text-decoration: none;
+    color: #d8d4d4;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.menu-items ul li:hover a {
+    color: #ffffff;
+    font-size: 16px;
+    transform: scale(1);
+    transition: 1s ease-in-out;
+    margin-left: 40px;
+}
+.menu-items .link {
+    background-color: #ff4655;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-weight: 700;
+}
+/* NAV Styles ends */
+/* Main section starts */
+.hero-container {
+    background-color: #000000;
+    padding: 30px; 
+}
+.content span {
+    background-color: #ffffff;
+    color: #181818;
+    border-radius: 10px;
+    padding: 3px 5px;
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.content .join {
+    color: #ece5e5da;
+    background-color: rgba(37, 34, 34, 0.9);
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 50px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.content h1 {
+    font-size: 60px;
+    color: #fefefe;
+    width: 40%;
+}
+.content .goal {
+    color: #bbafafda;
+    font-size: 14px;
+    width: 25%;
+    line-height: 23px;
+}
+.content .start {
+    background-color: #fe4858;
+    padding: 15px 25px;
+    border: 1px solid #fe4858;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.content .start a {
+    text-decoration: none;
+    color: #fefefe;
+    letter-spacing: 1px;
+    font-weight: 700;
+} 
+.content .start:hover {
+    background-color :inherit;
+    transition: 1s;
+}
+.content .demo {
+    background-color: rgba(37, 34, 34, 0.9);
+    padding: 15px 25px;
+    border: 2px solid rgba(37, 34, 34, 0.9);
+    border-radius: 5px;
+}
+.content .demo a {
+    text-decoration: none;
+    color: #fefefe;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.content .demo:hover {
+    background-color: inherit;
+    transition: 1s;
+}
+.content .fa-play-circle {
+    color: #ffffff;
+    font-size: 16px;
+}
+/* Main section ends */
